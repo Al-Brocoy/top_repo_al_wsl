@@ -5,9 +5,8 @@
 
 }
 body {
-   
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
     display: flex;
 
 }
@@ -35,6 +34,10 @@ body {
 .right-side  {
     width: 70vw;
     padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
 }
 
 #leaf-bg {
@@ -43,21 +46,20 @@ body {
 
 .input-fields {
     display: flex;
-    height: 200px;
+    height: fit-content;
     flex-wrap: wrap;
     align-content: flex-start;
-
-    
+    gap: 20px 200px;
+    padding-right: 300px;
 }
 .input-fields > div {
     height: fit-content;
     display: flex;
     flex-direction: column;
     flex: 1;
+    
 }
-.input-fields:nth-child(odd){
-    margin-right: 30px;
-}
+
 
 label {
     font-size: 12px;
