@@ -18,3 +18,7 @@ body {
 .right-side  {
     width: 70vw;
 }
+
+#leaf-bg {
+    height: 100vh;
+}
