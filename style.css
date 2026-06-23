@@ -34,8 +34,37 @@ body {
 }
 .right-side  {
     width: 70vw;
+    padding: 0 50px;
 }
 
 #leaf-bg {
     height: 100vh;
+}
+
+.input-fields {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    
+}
+.input-fields > div {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.input-fields:nth-child(odd){
+    margin-right: 30px;
+}
+
+label {
+    font-size: 12px;
+    width: fit-content;
+}
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    width: 250px;
 }
