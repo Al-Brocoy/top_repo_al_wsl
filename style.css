@@ -5,7 +5,6 @@
 
 }
 body {
-   
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -34,20 +33,34 @@ body {
 }
 .right-side  {
     width: 70vw;
-    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #leaf-bg {
     height: 100vh;
 }
+.hero,
+.input-box,
+.bottom{
+    padding: 0 50px;
+}
+form > button {
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
 
 .input-fields {
     display: flex;
-    height: 200px;
     max-width: 800px;
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 20px 100px;
+    margin: 20px 0px;
 
     
 }
@@ -67,4 +80,14 @@ input {
     border: 2px solid #E5E7EB;
     border-radius: 4px;
     width: 250px;
+}
+.input-box {
+    margin-bottom: 35px;
+}
+.hero {
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+legend{
+    margin-bottom: 15px;
 }
