@@ -44,19 +44,19 @@ body {
 .input-fields {
     display: flex;
     height: 200px;
+    max-width: 800px;
     flex-wrap: wrap;
     align-content: flex-start;
+    gap: 20px 100px;
 
     
 }
 .input-fields > div {
     height: fit-content;
+    width: fit-content;
     display: flex;
     flex-direction: column;
-    flex: 1;
-}
-.input-fields:nth-child(odd){
-    margin-right: 30px;
+    
 }
 
 label {
