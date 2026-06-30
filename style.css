@@ -59,10 +59,22 @@ body {
 form > button {
     margin-left: 50px;
     margin-bottom: 15px;
-    font-size: 16px;
+    width: 200px;
+    color: white;
+    background-color: #596D48;
+    font-size: 14px;
+    font-weight: 300;
     padding: 10px 20px;
     border-radius: 8px;
 }
+form > button:hover{
+    background-color: #44503a;
+}
+
+form > button:focus{
+    border: 3px solid #20271a;
+}
+
 
 .input-fields {
     display: flex;
