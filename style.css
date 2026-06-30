@@ -2,7 +2,7 @@
     border: red solid 1px;
     margin: 0;
     padding: 0;
-
+    border: 0;
 }
 
 @font-face {
@@ -84,6 +84,7 @@ form > button:focus{
     align-content: flex-start;
     gap: 20px 100px;
     margin: 20px 0px;
+    padding-right: 200px;
 
     
 }
@@ -99,14 +100,16 @@ label {
     margin-bottom: 5px;
     width: fit-content;
 }
+
 input {
     border: 2px solid #E5E7EB;
     border-radius: 4px;
     width: 250px;
 }
 input:focus {
-    border: lightblue;           ;
-    box-shadow: 1px 1px 15px lightblue;
+    outline: none;
+    border: 1px solid blue;           ;
+    box-shadow: 1px 1px 5px lightblue;
 }
 input[password]:user-invalid{
     border: 3px solid red;
@@ -120,4 +123,10 @@ input[password]:user-invalid{
 }
 legend{
     margin-bottom: 15px;
+}
+
+.input-box{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    box-shadow:  0 2px 5px 5px rgb(199, 198, 198);
 }
