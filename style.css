@@ -4,6 +4,15 @@
     padding: 0;
 
 }
+
+@font-face {
+    font-family: "norse";
+    src: url("fonts/norse-font/Norse-Bold.woff2") format("woff2"),
+         url("fonts/norse-font/Norse-Bold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 body {
     width: 100vw;
     height: 100vh;
@@ -29,6 +38,7 @@ body {
 
 .odin-logo > span {
     font-size: 80px;
+    font-family: "norse",sans-serif;
     color: white;
 }
 .right-side  {
